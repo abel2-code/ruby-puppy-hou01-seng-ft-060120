@@ -19,9 +19,9 @@ class Dog
     def Dog.print_all
       dog_names = []
         dog_names.push(@@all.name)
-      return dog_names                                     
+      return dog_names
       end
-        
+
     end
 
     def save
