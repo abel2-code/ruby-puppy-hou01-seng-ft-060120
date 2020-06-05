@@ -10,6 +10,10 @@ class Dog
       @@all
     end
 
+    def Dog.clear_all
+      @@all = []
+    end
+
     def Dog.print_all
       puts @@all
     end
