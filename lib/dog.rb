@@ -18,6 +18,7 @@ class Dog
 
     def Dog.print_all
       dog_names = []
+      Dog.all.each do |name|
         dog_names.push(@@all.name)
       return dog_names
       end
