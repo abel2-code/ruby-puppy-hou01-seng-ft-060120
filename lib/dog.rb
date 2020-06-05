@@ -11,7 +11,7 @@ class Dog
     end
 
     def Dog.clear_all
-      @@all = []
+      @@all.clear
     end
 
     def Dog.print_all
