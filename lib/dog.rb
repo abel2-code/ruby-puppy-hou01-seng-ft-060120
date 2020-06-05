@@ -3,17 +3,22 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self
+    @save << self
   end
 
-  def Dog.print_all
-    @@all.each do |dog|
-      puts dog.name
+    def Dog.all
+      @@all
     end
-  end
 
-  def self.clear_all
-    @@all.clear
-  end
+    def Dog.clear_all
+      @@all.clear
+    end
 
+    def Dog.print_all
+      name = @name
+      puts @@all.name
+    end
+
+    def save
+      @@all 
 end
