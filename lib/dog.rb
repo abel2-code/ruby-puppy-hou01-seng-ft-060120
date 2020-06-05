@@ -20,6 +20,7 @@ class Dog
       dog_names = []
         dog_names.push(@@all.name)
       return dog_names
+    end
       end
 
     end
