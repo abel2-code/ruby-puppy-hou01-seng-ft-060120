@@ -17,8 +17,11 @@ class Dog
     end
 
     def Dog.print_all
-      name = @name
-      puts @@all.map.name
+      dog_names = []
+        dog_names.push(@@all.name)
+      return dog_names                                     
+      end
+        
     end
 
     def save
